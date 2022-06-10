@@ -131,7 +131,7 @@ export default function Major(props){
     }
     
     return <div className="flex flex-col">
-        <div className="flex p-2 p-3 items-start w-24 justify-center bg-white/30 rounded-r-lg">
+        <div className="flex p-2 p-3 items-start w-24 justify-center bg-gray-300/30 rounded-r-lg">
         <div className="w-7 flex flex-col h-6 " name="location">
             <button name="location" className="h-7 w-7 -mt-1"  onMouseOut={()=>{setmouseOver(false)}}  onMouseOver={(e)=>{handleMouseOver(e)}}>
   
