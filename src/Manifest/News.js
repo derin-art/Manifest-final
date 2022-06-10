@@ -8,8 +8,6 @@ export default function News(){
     const [infoHover, setInfoHover] = React.useState(false)
     const [currentArticle, setCurrentArticle] = React.useState([])
     const [searchParam, setSearchParams] = useState("")
-    console.log(articles)
-    console.log(searchParam)
     const [articleNo, setArticleNo] = React.useState(0)
     const options = {
         method: 'GET',

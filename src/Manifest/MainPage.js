@@ -1,8 +1,6 @@
 import { data } from "autoprefixer";
 import React from "react";
 import Side from "./Major";
-import pcwallpaper from "./img/pcwallpaper.jpg"
-import { Blurhash } from "react-blurhash"
 import News from "./News";
 
 
@@ -17,13 +15,9 @@ export default function MainPage(){
         
     })
     const [reload, setReload] = React.useState(false)
-    const suitableImages = ["https://images.unsplash.com/photo-1584747792986-48c0515faba1…8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTQ3MzAwOTU&ixlib=rb-1.2.1&q=80",
-
-]
+    
     const date = new Date()
-    const [todayDate, setToday] = React.useState(date.getDay())
 
-    const [imgVisible, setImgVisible] = React.useState(true)
      const localStorageImg = JSON.parse(localStorage.getItem("backgroundTheme")) || "snow" 
      const localStorageFont = JSON.parse(localStorage.getItem("font")) || "Radio" 
     const [themeSettings, setThemeSettings] = React.useState({
